@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgba(220, 220, 220, 0.74);
+}
+nav ul{
+    background: #f7f7f7e5;
+    padding: 20px;
+    display: flex;
+    margin-top: -1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: larger;
+    color: black;
+
+}
+a:hover{
+    background: rgb(241, 158, 158);
+}
+header{
+    background: rgba(255, 212, 219, 0.329);
+    margin-top: -16px;
+    padding: 20px;
+    text-align: center;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.card-1{
+    width: 30%;
+    height: 30vh;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
